@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 500 px;
+
+}
+
+.image {
+  width: 81.5px;
+  height: 81.6px;
+  object-fit: contain;
+  margin-top: 50px;
+}
+

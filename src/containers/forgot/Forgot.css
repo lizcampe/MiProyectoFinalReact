@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 180 px;
+  
+  }
+
+#centro{
+	width: 400px;
+	margin: 0px auto;
+    padding: 8 px;
+    text-align: center;
+}
+
+#peque {
+	width: 285px;
+  margin: 0px auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.return-to-login {
+        width: 111px;
+        height: 21px;
+        opacity: 0.4;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.24;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #363840;
+      }
+  
+
+.Agree {
+    color: #363840;
+  }
+
+.Search-Container {
+    width: 215.9px;
+    height: 52.4px;
+    border-radius: 40px;
+    align: center;
+    background-color: #7463d3;
+  }
+
+  
+.send {
+    width: 44px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.06;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: white;
+  }
+
+.passlost {
+    width: 432px;
+    height: 35.9px;
+    border-radius: 3px;
+    border: solid 1px #cccccc;
+    background-color: var(--white);
+  }
+
+.Forgot-your-password2 {
+    width: 236px;
+    height: 22px;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #111111;
+  }
+
+.lost {
+    width: 335px;
+    height: 21px;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: center;
+    color: #363840;
+  }
+
+.help {
+    width: 83.1px;
+    height: 83.1px;
+    object-fit: contain;
+    text-align: center<
+  }
