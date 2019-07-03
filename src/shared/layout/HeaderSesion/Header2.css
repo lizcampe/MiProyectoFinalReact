@@ -1,37 +1,37 @@
 .image1 {
-    width: 44.1px;
-    height: 44.2px;
-    object-fit: contain;
-  }
+  width: 44.1px;
+  height: 44.2px;
+  object-fit: contain;
+}
 
 .Search-Container2 {
-    width: 179.9px;
-    height: 35.4px;
-    border-radius: 40px;
-    border: solid 2px #e0e0e0;
-    background-color: white;
-   }
+  width: 179.9px;
+  height: 35.4px;
+  border-radius: 40px;
+  border: solid 2px #e0e0e0;
+  background-color: white;
+}
 
 .help {
-    width: 83.1px;
-    height: 83.1px;
-    object-fit: contain;
-    text-align: center;
-  }
+  width: 83.1px;
+  height: 30.1px;
+  object-fit: scale-down;
+  text-align: center;
+}
 
 #Search {
-    width: 179.9px;
-    height: 35.4px;
-    border-radius: 40px;
-    border: solid 2px #e0e0e0;
-    background-color: white;
-    color:#e0e0e0;
-  }
+  width: 179.9px;
+  height: 35.4px;
+  border-radius: 40px;
+  border: solid 2px #e0e0e0;
+  background-color: white;
+  color: #e0e0e0;
+}
 
 .alarma {
-    width: 23.4px;
-    height: 25.9px;
-  }
+  width: 23.4px;
+  height: 25.9px;
+}
 
 .Profile-Image {
   width: 61.2px;

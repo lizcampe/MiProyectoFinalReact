@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Perfil from "../../shared/media/Profile.jpg";
 import SlideView from "../../components/user/SlideView";
+import ListGroup from "react-bootstrap/ListGroup";
 //!Interacción con el api
 import { getData } from "../../api/users.api";
 
@@ -9,9 +10,9 @@ import "./user.css";
 
 class UserContainer extends Component {
   state = {
-    name: "Liz",
+    name: "Lizette",
     email: "lizcampe@gmail.com",
-    descripcion: "Me gustan los perritos",
+    intereses: "Me gustan los perritos",
     url_img: Perfil
   };
 
@@ -33,10 +34,21 @@ class UserContainer extends Component {
           </div>
 
           <div className="user-info">
-            <strong> Sección de perfil</strong>
-            <p> {this.state.name}</p>
-            <p>{this.state.email}</p>
-            <p> {this.state.descripcion} </p>
+            <ListGroup>
+              <ListGroup.Item>
+                <strong className="letras"> Datos de tu cuenta</strong>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                {" "}
+                <p className="letras"> {this.state.name}</p>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <p className="letras">{this.state.email}</p>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <p className="letras"> {this.state.intereses} </p>
+              </ListGroup.Item>
+            </ListGroup>
           </div>
         </div>
         <SlideView />

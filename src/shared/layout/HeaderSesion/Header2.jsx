@@ -3,6 +3,7 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import Profile from "../../media/Profile.jpg";
 import searchIcon from "../../media/searchIcon.png";
+import imgtor from "../../media/imgtor.png";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import alarma from "../../media/alarma.png";
@@ -31,7 +32,8 @@ const Header2 = () => (
 
         <li className="nav-item">
           <a className="nav-link" href="#">
-            IMGTOR
+            {" "}
+            <img className="help" src={imgtor} onClick="/" />
           </a>
         </li>
 
@@ -42,8 +44,7 @@ const Header2 = () => (
             <input
               type="text"
               className="Search-Container2"
-              src="img/searchIcon.png"
-              placeholder="   Search"
+              placeholder="   Búsqueda"
             />{" "}
           </span>
         </li>
@@ -54,7 +55,7 @@ const Header2 = () => (
         {" "}
         <Button id="Search" className="Submit" value="Submit a photo">
           {" "}
-          Submit a photo{" "}
+          Sube una foto{" "}
         </Button>{" "}
       </ul>
 

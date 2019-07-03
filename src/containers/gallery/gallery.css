@@ -1,0 +1,54 @@
+#demo {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+.green {
+  background-color: #dde7d4;
+}
+.thumb {
+  margin-bottom: 30px;
+}
+
+.page-top {
+  margin-top: 85px;
+}
+
+.zoom {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  color: #000;
+}
+.modal-footer {
+  display: none;
+}
+.foto {
+  width: 365px;
+  height: 365px;
+  object-fit: contain;
+}

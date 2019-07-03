@@ -17,7 +17,7 @@ class Muro extends React.Component {
         className="container-fluid gallery-container"
       >
         <div className="row">
-          {this.state.data.map((url, index) => {
+          {this.props.data.map((url, index) => {
             return (
               <div className="col-sm-6 col-md-3 col-xl-2">
                 <div className="gallery-card">
@@ -37,10 +37,10 @@ class Muro extends React.Component {
           })}
         </div>
         <GalleryModal
-          isOpen={this.state.showModal}
-          src={this.state.url}
+          isOpen={this.props.showModal}
+          src={this.props.url}
           closeModal={this.closeModal}
-          imgUrls={this.state.data}
+          imgUrls={this.props.data}
         />
       </div>
     );
