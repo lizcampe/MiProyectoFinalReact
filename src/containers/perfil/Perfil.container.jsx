@@ -28,11 +28,9 @@ class perfil extends React.Component {
           <Form.Control placeholder="Ejem. Fotógrafo" />
         </Form.Group>
 
-        <Form.Group controlId="intereses">
-          <Form.Label>
-            Intereses de imágenes (separados por coma, por favor)
-          </Form.Label>
-          <Form.Control placeholder="Ejem. paisajes, comida, retrato" />
+        <Form.Group controlId="nombre">
+          <Form.Label>Nombre</Form.Label>
+          <Form.Control placeholder="nombre" />
         </Form.Group>
 
         <Form.Row>

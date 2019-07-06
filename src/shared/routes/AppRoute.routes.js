@@ -7,20 +7,23 @@ import App from "../../containers/app/App.container";
 import User from "../../containers/user/User.container";
 import Gallery from "../../containers/gallery/GalleryContainer";
 import Muro from "../../containers/muro/Muro.container";
+import Subidor from "../../containers/subidor/Subidor.container";
 
 // * Components
 import Error404 from "../layout/Error404.component";
 import Header from "../layout/Header/Header";
 import Header2 from "../layout/HeaderSesion/Header2";
+import useAuth from "../../hooks/useAuth";
 
 // ! routes
 import { Route, Switch } from "react-router-dom";
 
 const AppRoute = () => {
-  let login = true; //Bandera que me dice si muestro ruta privada o pública
+  const user = useAuth();
+  let login = false; //Bandera que me dice si muestro ruta privada o pública
   return (
     <App>
-      {login ? (
+      {user !== null ? (
         <Fragment>
           <Header2 />
           <Switch>
@@ -29,6 +32,8 @@ const AppRoute = () => {
             <Route exact path="/" component={User} />
             <Route exact path="/muro" component={Muro} />
             <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/subidor" component={Subidor} />
+            <Route exact path="/perfil" component={Perfil} />
             <Route component={Error404} />
           </Switch>
         </Fragment>
@@ -39,7 +44,7 @@ const AppRoute = () => {
           <Switch>
             <Route exact path="/" component={Login} />
             <Route exact path="/forgot" component={Forgot} />
-            <Route exact path="/perfil" component={Perfil} />
+
             <Route component={Error404} />
           </Switch>
         </Fragment>
